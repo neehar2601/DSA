@@ -1,362 +1,210 @@
-🚀 Data Structures & Algorithms
+# DSA Portal
 
-A comprehensive collection of Data Structures & Algorithms implementations, interview notes, and coding practice solutions.
+> A documentation-first Data Structures & Algorithms learning platform —
+> structured like a textbook, implemented in Python and C.
 
-⸻
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://python.org)
+[![C](https://img.shields.io/badge/C-C11-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
+[![MkDocs](https://img.shields.io/badge/Docs-MkDocs%20Material-526CFE?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+[![GitHub Pages](https://img.shields.io/badge/Site-GitHub%20Pages-222?logo=github)](https://neehar2601.github.io/DSA)
 
-📖 About
+---
 
-This repository documents my journey of mastering Data Structures & Algorithms through consistent practice and implementation.
+## What This Is
 
-The primary objectives of this repository are to:
+This repository is **not** a collection of unrelated solution files.
 
-* Strengthen problem-solving skills
-* Prepare for coding interviews
-* Build a reusable DSA reference
-* Understand time and space complexity
-* Learn language-independent problem-solving techniques
-* Implement solutions in multiple programming languages
-* Track continuous learning progress
+It is a structured learning platform where:
 
-Problems are solved from platforms such as:
+- Every **topic** gets a textbook-quality explanation with theory, complexity tables, and patterns.
+- Every **problem** gets its own directory with a full write-up (intuition → brute force → optimal → dry run) alongside Python and C implementations.
+- The **website** mirrors the repository structure exactly — browse on GitHub or on the docs site.
 
-* LeetCode
-* HackerRank
-* GeeksforGeeks
-* Codeforces
-* InterviewBit
-* Coding Ninjas
+---
 
-⸻
+## Repository Structure
 
-🎯 Goals
-
-* Solve 500+ DSA problems
-* Master fundamental data structures
-* Learn advanced algorithms
-* Improve problem-solving speed
-* Write clean, optimized, and readable code
-* Prepare for top product-based company interviews
-
-⸻
-
-💻 Languages
-
-Currently Using
-
-* Python 🐍
-* C
-
-Planned
-
-* C++
-* Java
-
-The objective is to understand algorithms independent of any programming language while gradually building implementations in multiple languages.
-
-⸻
-
-📚 Topics Covered
-
-* Arrays
-* Strings
-* Hashing
-* Recursion
-* Sorting
-* Searching
-* Linked Lists
-* Stacks
-* Queues
-* Trees
-* Binary Search Trees
-* Heaps
-* Tries
-* Graphs
-* Dynamic Programming
-* Greedy Algorithms
-* Backtracking
-* Bit Manipulation
-* Sliding Window
-* Two Pointers
-* Prefix Sum
-* Monotonic Stack
-* Segment Tree
-* Fenwick Tree
-* Union Find (Disjoint Set)
-* Graph Shortest Path Algorithms
-* Topological Sorting
-
-⸻
-
-📂 Repository Structure
-
+```
 DSA/
+├── arrays/                     ← Topic directory
+│   ├── README.md               ← Theory, patterns, complexity, problem index
+│   ├── easy/
+│   │   └── LC0001-two-sum/     ← Problem directory
+│   │       ├── README.md       ← Full problem write-up
+│   │       ├── python/
+│   │       │   ├── solution.py
+│   │       │   └── test_solution.py
+│   │       └── c/
+│   │           └── solution.c
+│   ├── medium/
+│   └── hard/
 │
-├── Arrays/
-├── Strings/
-├── Hashing/
-├── Recursion/
-├── Searching/
-├── Sorting/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Trees/
-├── BinarySearchTree/
-├── Heap/
-├── Trie/
-├── Graph/
-├── DynamicProgramming/
-├── Greedy/
-├── Backtracking/
-├── BitManipulation/
-├── SlidingWindow/
-├── TwoPointers/
-├── PrefixSum/
-├── SegmentTree/
-├── FenwickTree/
-├── UnionFind/
-├── Resources/
-└── README.md
-
-⸻
-
-🗺️ Learning Roadmap
-
-Phase 1 — Foundations
-
-* Big O Notation
-* Time Complexity
-* Space Complexity
-* Arrays
-* Strings
-* Hashing
-* Recursion
-* Searching
-* Sorting
-
-Phase 2 — Intermediate
-
-* Linked List
-* Stack
-* Queue
-* Binary Search
-* Sliding Window
-* Two Pointers
-* Prefix Sum
-* Binary Search Tree
-* Heap
-
-Phase 3 — Advanced
-
-* Trees
-* Graphs
-* Greedy
-* Backtracking
-* Dynamic Programming
-* Bit Manipulation
-
-Phase 4 — Expert
-
-* Trie
-* Segment Tree
-* Fenwick Tree
-* Union Find
-* KMP
-* Rabin-Karp
-* Tarjan Algorithm
-* Kosaraju Algorithm
-
-⸻
-
-📈 Progress Tracker
-
-Topic	Problems Solved	Status
-Arrays	0	⬜
-Strings	0	⬜
-Hashing	0	⬜
-Recursion	0	⬜
-Searching	0	⬜
-Sorting	0	⬜
-Linked List	0	⬜
-Stack	0	⬜
-Queue	0	⬜
-Trees	0	⬜
-BST	0	⬜
-Heap	0	⬜
-Trie	0	⬜
-Graph	0	⬜
-Dynamic Programming	0	⬜
-Greedy	0	⬜
-Backtracking	0	⬜
-Bit Manipulation	0	⬜
-
-⸻
-
-⭐ Interview Preparation Sheets
-
-* Blind 75
-* NeetCode 150
-* LeetCode Top Interview 150
-* Striver SDE Sheet
-* Love Babbar DSA Sheet
-* Grind 169
-
-⸻
-
-⏱️ Time Complexity Cheat Sheet
-
-Operation	Best	Average	Worst
-Array Access	O(1)	O(1)	O(1)
-Array Search	O(1)	O(n)	O(n)
-Array Insert	O(1)	O(n)	O(n)
-Array Delete	O(1)	O(n)	O(n)
-Hash Table Lookup	O(1)	O(1)	O(n)
-Binary Search	O(1)	O(log n)	O(log n)
-Merge Sort	O(n log n)	O(n log n)	O(n log n)
-Quick Sort	O(n log n)	O(n log n)	O(n²)
-Heap Insert	O(log n)	O(log n)	O(log n)
-Heap Delete	O(log n)	O(log n)	O(log n)
-DFS	O(V + E)	O(V + E)	O(V + E)
-BFS	O(V + E)	O(V + E)	O(V + E)
-
-⸻
-
-🧩 Problem-Solving Patterns
-
-Beginner
-
-* Linear Traversal
-* Frequency Counting
-* Prefix Sum
-* Binary Search
-* Sorting
-
-Intermediate
-
-* Two Pointers
-* Sliding Window
-* Fast & Slow Pointer
-* Monotonic Stack
-* Greedy
-* Divide & Conquer
-
-Advanced
-
-* DFS
-* BFS
-* Backtracking
-* Dynamic Programming
-* Topological Sort
-* Union Find
-* Trie
-* Segment Tree
-
-⸻
-
-📌 Coding Standards
-
-Every solution aims to include:
-
-* Problem statement or source link
-* Approach
-* Algorithm
-* Time Complexity
-* Space Complexity
-* Clean and readable implementation
-* Comments where appropriate
-
-⸻
-
-📁 Folder Convention
-
-Every topic directory will eventually follow this layout:
-
-Topic/
+├── strings/
+├── hashing/
+├── linked-list/
+├── stack/
+├── queue/
+├── trees/
+├── binary-search-tree/
+├── heap/
+├── trie/
+├── graph/
+├── recursion/
+├── searching/
+├── sorting/
+├── sliding-window/
+├── two-pointers/
+├── prefix-sum/
+├── greedy/
+├── backtracking/
+├── dynamic-programming/
+├── bit-manipulation/
+├── segment-tree/
+├── fenwick-tree/
+├── union-find/
 │
-├── README.md
-├── Easy/
-├── Medium/
-├── Hard/
-└── Notes.md
+├── templates/                  ← Copy-paste templates for new topics/problems
+├── scripts/                    ← Automation utilities
+├── assets/                     ← Diagrams and shared media
+│
+├── mkdocs.yml                  ← Documentation site config
+├── requirements.txt
+└── .github/workflows/deploy.yml ← Auto-deploy to GitHub Pages
+```
 
-Each solution file should contain:
+---
 
-* Problem Name
-* Platform
-* Difficulty
-* Approach
-* Code
-* Complexity Analysis
+## Problem Naming Convention
 
-⸻
+All problems follow the format: `<PLATFORM><ID>-<problem-slug>/`
 
-📖 Learning Resources
+| Prefix | Platform |
+|--------|----------|
+| `LC` | LeetCode |
+| `GFG` | GeeksforGeeks |
+| `HR` | HackerRank |
 
-* LeetCode
-* GeeksforGeeks
-* NeetCode
-* Codeforces
-* HackerRank
-* CP-Algorithms
-* MIT OpenCourseWare
-* VisuAlgo
+Examples: `LC0001-two-sum/`, `LC0015-3sum/`, `GFG-reverse-linked-list/`
 
-⸻
+---
 
-💡 Repository Philosophy
+## Progress
 
-The goal of this repository is not to memorize solutions.
+| Topic | Easy | Medium | Hard | Status |
+|-------|------|--------|------|--------|
+| Arrays | 1 | 0 | 0 | 🟡 In Progress |
+| Strings | 0 | 0 | 0 | ⬜ Not Started |
+| Hashing | 0 | 0 | 0 | ⬜ Not Started |
+| Recursion | 0 | 0 | 0 | ⬜ Not Started |
+| Searching | 0 | 0 | 0 | ⬜ Not Started |
+| Sorting | 0 | 0 | 0 | ⬜ Not Started |
+| Linked List | 0 | 0 | 0 | ⬜ Not Started |
+| Stack | 0 | 0 | 0 | ⬜ Not Started |
+| Queue | 0 | 0 | 0 | ⬜ Not Started |
+| Trees | 0 | 0 | 0 | ⬜ Not Started |
+| Binary Search Tree | 0 | 0 | 0 | ⬜ Not Started |
+| Heap | 0 | 0 | 0 | ⬜ Not Started |
+| Trie | 0 | 0 | 0 | ⬜ Not Started |
+| Graph | 0 | 0 | 0 | ⬜ Not Started |
+| Sliding Window | 0 | 0 | 0 | ⬜ Not Started |
+| Two Pointers | 0 | 0 | 0 | ⬜ Not Started |
+| Prefix Sum | 0 | 0 | 0 | ⬜ Not Started |
+| Greedy | 0 | 0 | 0 | ⬜ Not Started |
+| Backtracking | 0 | 0 | 0 | ⬜ Not Started |
+| Dynamic Programming | 0 | 0 | 0 | ⬜ Not Started |
+| Bit Manipulation | 0 | 0 | 0 | ⬜ Not Started |
+| Segment Tree | 0 | 0 | 0 | ⬜ Not Started |
+| Fenwick Tree | 0 | 0 | 0 | ⬜ Not Started |
+| Union Find | 0 | 0 | 0 | ⬜ Not Started |
 
-Instead, the focus is to:
+---
 
-* Understand the intuition behind algorithms
-* Analyze trade-offs between approaches
-* Improve coding style
-* Write optimized solutions
-* Build strong interview-ready problem-solving skills
+## Quick Start
 
-⸻
+### Browse on GitHub
 
-🎯 Current Focus
+Click into any topic directory. GitHub renders `README.md` automatically.
 
-* Strengthen DSA fundamentals
-* Master Python and C implementations
-* Improve algorithmic thinking
-* Solve problems consistently
-* Build an interview-ready repository
+### Run the docs site locally
 
-⸻
+```bash
+pip install -r requirements.txt
+mkdocs serve
+# Open http://127.0.0.1:8000
+```
 
-🚀 Future Plans
+### Run tests
 
-* Add C++ implementations
-* Add Java implementations
-* Topic-wise notes
-* Visual algorithm explanations
-* Pattern-based problem collections
-* Daily challenge tracker
-* Interview experiences
-* System Design notes
+```bash
+cd arrays/easy/LC0001-two-sum/python
+python -m pytest test_solution.py -v
+```
 
-⸻
+### Compile a C solution
 
-🤝 Contributions
+```bash
+cd arrays/easy/LC0001-two-sum/c
+gcc -Wall -o solution solution.c && ./solution
+```
 
-This repository is primarily maintained as a personal learning resource.
+### Add a new problem
 
-Suggestions, improvements, and constructive feedback are always welcome.
+```bash
+# 1. Create the directory
+mkdir -p arrays/easy/LC0121-best-time-to-buy-and-sell-stock/{python,c}
 
-⸻
+# 2. Copy templates
+cp templates/problem-readme.md arrays/easy/LC0121-best-time-to-buy-and-sell-stock/README.md
+cp templates/solution.py        arrays/easy/LC0121-best-time-to-buy-and-sell-stock/python/solution.py
+cp templates/solution.c         arrays/easy/LC0121-best-time-to-buy-and-sell-stock/c/solution.c
 
-📜 License
+# 3. Fill in templates, write tests
+# 4. Update arrays/README.md problem index table
+# 5. Update mkdocs.yml nav section
+```
 
-This project is licensed under the MIT License.
+---
 
-⸻
+## Philosophy
 
-⭐ If you found this repository helpful
+This project is not about memorizing solutions.
 
-Consider giving it a ⭐ Star. It motivates me to continue learning and sharing my progress.
+It is about understanding **why** a particular approach is correct, **when** a pattern applies, and **how** to communicate that reasoning clearly in code and documentation.
 
-Happy Coding! 🚀
+Every problem answer must answer:
+
+1. What is the brute force? Why does it fail?
+2. What is the insight that enables a better solution?
+3. What is the exact complexity and why?
+
+---
+
+## Roadmap
+
+| Phase | Description | Status |
+|-------|-------------|--------|
+| 1 | Repository structure + MkDocs setup + GitHub Pages | ✅ Done |
+| 2 | Arrays topic complete (Easy + Medium) | 🟡 In Progress |
+| 3 | Strings, Hashing, Recursion, Sorting, Searching | ⬜ Planned |
+| 4 | Linear structures (Linked List, Stack, Queue) | ⬜ Planned |
+| 5 | Trees, BST, Heap, Trie, Graph | ⬜ Planned |
+| 6 | Interview patterns, cheat sheets, company collections | ⬜ Planned |
+| 7 | Automation: auto progress tracker, index generation | ⬜ Planned |
+
+---
+
+## Languages
+
+| Language | Status |
+|----------|--------|
+| Python | ✅ Active |
+| C | ✅ Active |
+| C++ | 🔜 Planned |
+| Java | 🔜 Planned |
+
+---
+
+## License
+
+[MIT](LICENSE) — use freely for learning.
