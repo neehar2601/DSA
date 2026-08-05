@@ -1,4 +1,5 @@
-docs_dir: .
+docs_dir: docs
+site_dir: site
 site_name: DSA Portal
 site_description: >
   A documentation-first DSA learning platform — structured textbook-style,
@@ -79,60 +80,60 @@ extra:
       link: https://github.com/neehar2601
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Foundations:
     - Arrays:
-      - Overview: arrays/README.md
+      - Overview: ../arrays/README.md
       - Easy:
-        - LC0001 · Two Sum: arrays/easy/LC0001-two-sum/README.md
+        - LC0001 · Two Sum: ../arrays/easy/LC0001-two-sum/README.md
     - Strings:
-      - Overview: strings/README.md
+      - Overview: ../strings/README.md
     - Hashing:
-      - Overview: hashing/README.md
+      - Overview: ../hashing/README.md
     - Recursion:
-      - Overview: recursion/README.md
+      - Overview: ../recursion/README.md
     - Searching:
-      - Overview: searching/README.md
+      - Overview: ../searching/README.md
     - Sorting:
-      - Overview: sorting/README.md
+      - Overview: ../sorting/README.md
   - Linear Structures:
     - Linked List:
-      - Overview: linked-list/README.md
+      - Overview: ../linked-list/README.md
     - Stack:
-      - Overview: stack/README.md
+      - Overview: ../stack/README.md
     - Queue:
-      - Overview: queue/README.md
+      - Overview: ../queue/README.md
   - Techniques:
     - Sliding Window:
-      - Overview: sliding-window/README.md
+      - Overview: ../sliding-window/README.md
     - Two Pointers:
-      - Overview: two-pointers/README.md
+      - Overview: ../two-pointers/README.md
     - Prefix Sum:
-      - Overview: prefix-sum/README.md
+      - Overview: ../prefix-sum/README.md
   - Trees & Graphs:
     - Trees:
-      - Overview: trees/README.md
+      - Overview: ../trees/README.md
     - Binary Search Tree:
-      - Overview: binary-search-tree/README.md
+      - Overview: ../binary-search-tree/README.md
     - Heap:
-      - Overview: heap/README.md
+      - Overview: ../heap/README.md
     - Trie:
-      - Overview: trie/README.md
+      - Overview: ../trie/README.md
     - Graph:
-      - Overview: graph/README.md
+      - Overview: ../graph/README.md
   - Advanced:
     - Greedy:
-      - Overview: greedy/README.md
+      - Overview: ../greedy/README.md
     - Backtracking:
-      - Overview: backtracking/README.md
+      - Overview: ../backtracking/README.md
     - Dynamic Programming:
-      - Overview: dynamic-programming/README.md
+      - Overview: ../dynamic-programming/README.md
     - Bit Manipulation:
-      - Overview: bit-manipulation/README.md
+      - Overview: ../bit-manipulation/README.md
   - Expert:
     - Segment Tree:
-      - Overview: segment-tree/README.md
+      - Overview: ../segment-tree/README.md
     - Fenwick Tree:
-      - Overview: fenwick-tree/README.md
+      - Overview: ../fenwick-tree/README.md
     - Union Find:
-      - Overview: union-find/README.md
+      - Overview: ../union-find/README.md

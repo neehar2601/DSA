@@ -1,0 +1,28 @@
+# DSA Portal
+
+Welcome. Use the navigation to explore topics, or jump directly:
+
+- [Arrays](../arrays/README.md)
+- [Strings](../strings/README.md)
+- [Hashing](../hashing/README.md)
+- [Recursion](../recursion/README.md)
+- [Searching](../searching/README.md)
+- [Sorting](../sorting/README.md)
+- [Linked List](../linked-list/README.md)
+- [Stack](../stack/README.md)
+- [Queue](../queue/README.md)
+- [Sliding Window](../sliding-window/README.md)
+- [Two Pointers](../two-pointers/README.md)
+- [Prefix Sum](../prefix-sum/README.md)
+- [Trees](../trees/README.md)
+- [Binary Search Tree](../binary-search-tree/README.md)
+- [Heap](../heap/README.md)
+- [Trie](../trie/README.md)
+- [Graph](../graph/README.md)
+- [Greedy](../greedy/README.md)
+- [Backtracking](../backtracking/README.md)
+- [Dynamic Programming](../dynamic-programming/README.md)
+- [Bit Manipulation](../bit-manipulation/README.md)
+- [Segment Tree](../segment-tree/README.md)
+- [Fenwick Tree](../fenwick-tree/README.md)
+- [Union Find](../union-find/README.md)
