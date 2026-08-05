@@ -6,8 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://python.org)
 [![C](https://img.shields.io/badge/C-C11-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![MkDocs](https://img.shields.io/badge/Docs-MkDocs%20Material-526CFE?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-[![GitHub Pages](https://img.shields.io/badge/Site-GitHub%20Pages-222?logo=github)](https://neehar2601.github.io/DSA)
 
 ---
 
@@ -19,7 +17,7 @@ It is a structured learning platform where:
 
 - Every **topic** gets a textbook-quality explanation with theory, complexity tables, and patterns.
 - Every **problem** gets its own directory with a full write-up (intuition → brute force → optimal → dry run) alongside Python and C implementations.
-- The **website** mirrors the repository structure exactly — browse on GitHub or on the docs site.
+- The repository is organized for seamless browsing directly on GitHub.
 
 ---
 
@@ -68,9 +66,7 @@ DSA/
 ├── scripts/                    ← Automation utilities
 ├── assets/                     ← Diagrams and shared media
 │
-├── mkdocs.yml                  ← Documentation site config
-├── requirements.txt
-└── .github/workflows/deploy.yml ← Auto-deploy to GitHub Pages
+└── requirements.txt            ← Python dependencies (if any)
 ```
 
 ---
@@ -126,14 +122,6 @@ Examples: `LC0001-two-sum/`, `LC0015-3sum/`, `GFG-reverse-linked-list/`
 
 Click into any topic directory. GitHub renders `README.md` automatically.
 
-### Run the docs site locally
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-# Open http://127.0.0.1:8000
-```
-
 ### Run tests
 
 ```bash
@@ -161,7 +149,6 @@ cp templates/solution.c         arrays/easy/LC0121-best-time-to-buy-and-sell-sto
 
 # 3. Fill in templates, write tests
 # 4. Update arrays/README.md problem index table
-# 5. Update mkdocs.yml nav section
 ```
 
 ---
@@ -184,7 +171,7 @@ Every problem answer must answer:
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 1 | Repository structure + MkDocs setup + GitHub Pages | ✅ Done |
+| 1 | Repository structure | ✅ Done |
 | 2 | Arrays topic complete (Easy + Medium) | 🟡 In Progress |
 | 3 | Strings, Hashing, Recursion, Sorting, Searching | ⬜ Planned |
 | 4 | Linear structures (Linked List, Stack, Queue) | ⬜ Planned |
